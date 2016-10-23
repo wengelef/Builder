@@ -29,7 +29,7 @@ Thumbs.db
 *.iml
 .idea
 .gradle
-../../Halo5Hackathon/app/build/
+build/
 
 #NDK
 obj/
