@@ -19,34 +19,34 @@ will generate:
 
 ```java
 public final class UserBuilder {
-  private String username;
+    private String username;
 
-  private String mail;
+    private String mail;
 
-  private int age;
+    private int age;
 
-  public UserBuilder username(String username) {
-    this.username = username;
-    return this;
-  }
+    public UserBuilder username(String username) {
+        this.username = username;
+        return this;
+    }
 
-  public UserBuilder mail(String mail) {
-    this.mail = mail;
-    return this;
-  }
+    public UserBuilder mail(String mail) {
+        this.mail = mail;
+        return this;
+    }
 
-  public UserBuilder age(int age) {
-    this.age = age;
-    return this;
-  }
+    public UserBuilder age(int age) {
+        this.age = age;
+        return this;
+    }
 
-  public User build() {
-    User user = new User();
-    user.username = this.username;
-    user.mail = this.mail;
-    user.age = this.age;
-    return user;
-  }
+    public User build() {
+        User user = new User();
+        user.username = this.username;
+        user.mail = this.mail;
+        user.age = this.age;
+        return user;
+    }
 }
 ```
 
