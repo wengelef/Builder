@@ -50,6 +50,24 @@ public final class UserBuilder {
 }
 ```
 
+## Download
+
+##### Gradle:
+
+```java
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+
+```java
+dependencies {
+    'com.github.wengelef:Builder:0.1'
+}
+```
+
 ## License
 
 Copyright 2016 Florian Wengelewski
