@@ -68,6 +68,25 @@ dependencies {
 }
 ```
 
+##### Maven:
+
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+```
+    <dependency>
+        <groupId>com.github.wengelef</groupId>
+        <artifactId>Builder</artifactId>
+        <version>0.1</version>
+    </dependency>
+```
+
 ## License
 
 Copyright 2016 Florian Wengelewski
